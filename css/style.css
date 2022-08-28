@@ -1,0 +1,191 @@
+@media (max-width: 800px){
+	nav img{
+		width: 100px!important;
+		/*display: none;*/
+	}
+
+	.copter-card{
+		padding: 0!important;
+		width: 350px!important;
+	}
+	
+	.copter-img{
+		height: 200px;
+	}
+
+	
+	
+}
+
+.bg-gray{
+	background-color: #e7e7e7;
+}
+
+nav > div{
+	background-color: #efe3d6;
+}
+
+.menu > a{
+	text-decoration: none;
+	color:#505050;
+	transition: 0.2s;
+}
+
+.menu > a:hover{
+	color:#111;
+	border-bottom: 3px solid;
+}
+
+.button{
+	padding: 6px;
+	border: 5px solid;
+	border-color: #282828;
+	transition: 0.2s;
+}
+
+.button:hover{
+	color: #fff;
+	background-color: #282828;
+	border-color: #282828;
+}
+
+.btn-white{
+	padding: 6px;
+	border: 5px solid;
+	color: #fff;
+	background-color: #282828;
+	border-color: #fff;
+	transition: 0.2s;
+}
+
+.btn-white:hover{
+	color: #282828;
+	background-color: #fff;
+	border-color: #282828;
+}
+
+.tel-icon{
+	display: block;	
+	background: url(../img/tel-icon.png) no-repeat;
+	background-size: 45px 45px;
+}
+
+.tel-icon:hover{	
+	background: url(../img/tel-icon_h.png) no-repeat;
+	background-size: 46px 46px;	
+}
+
+.tel-icon span{
+	display: block;
+	width: 45px;
+	height: 45px;
+}
+
+header{
+	background: url(../img/bg-2.jpg);
+	/* background-repeat: no-repeat; */
+	/* background-size: auto 100%; */
+	background-size: cover;
+    background-position-x: center;
+}
+
+.header-list{
+	margin-top: 7%;
+	background-color: rgb(255 255 255 / 62%);
+	border: #111 5px solid;
+}
+
+.gal{
+	width: 350px;
+	height: 235px;
+	padding: 10px;	
+}
+
+.gal > img{
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.copter-card{
+	margin-bottom: 40px;
+    padding: 20px 20px;
+    width: 500px;
+}
+
+.copter-img{
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.parallax{
+    background-image: url(../img/parallax.jpg);
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.docs{
+    max-width: 900px;
+}
+
+.docs a{
+    margin: 15px;
+    color:black;
+    font-size: 1.2em;
+	text-decoration: none;
+}
+
+.docs a:hover{
+    color:#727272;
+}
+
+.docs img{
+    margin-right: 10px;
+}
+
+footer{
+    background-color: rgb(145 145 145 / 97%);
+    padding: 30px 0px;
+}
+
+footer p{
+    color: #fff;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    
+}
+
+footer a{
+	text-decoration: none;
+    color: rgb(3, 3, 3);    
+}
+
+footer a:hover{
+    color: rgb(59, 59, 59);    
+}
+
+footer li{
+    color: #fff;
+    font-size: 1.2em;
+    /* margin-bottom: 0; */
+    
+}
+
+footer ul{
+    padding-left: 50px;
+}
+
+#scrollup {
+    width: 40px;
+    height: 40px;
+    opacity: 0.3;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 200;
+    background: url(../img/icon_top.png) no-repeat;
+}

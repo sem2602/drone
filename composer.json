@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.5",
+        "convertio/convertio-php": "^0.4.0"
+    }
+}
